@@ -345,9 +345,15 @@ Conoce más sobre  <a href="https://cesar-jo.github.io/CV-Cesar/" class="">mi tr
   method="POST"
 >
 
-<h2 class="footer__newsletter">Contactenos para cualquier consulta</h2>
+<h2 class="footer__newsletter">Registrate para el seguimiento de tu seguro.</h2>
     <div class="footer__inputs">
+        <input type="text" placeholder="Nombre:" class="footer__input" name="nombre">
         <input type="email" placeholder="Email:" class="footer__input" name="correo">
+        <select type="text" name="seguro" class="footer__input">
+  <option value="Seguro de autos">Seguro de autos</option>
+  <option value="Seguro de vida" selected>Seguro de vida</option>
+  <option value="Seguro de empresa">Seguro de empresa</option>
+</select>
         <input name="message" placeholder="mensaje:" class="footer__input">
         <input type="submit" value="Enviar" class="footer__submit">
     </div>
